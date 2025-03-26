@@ -1,0 +1,60 @@
+body {
+    background-image: url(./images/rugby.jpg);
+    background-size: cover;
+    border-radius: 10px;
+    font-family: 'Cursed Timer ULiL', sans-serif ;
+    font-weight: bold;
+    padding: 30px 25px;
+}
+
+.container {
+    background-color: #9CA3AF;
+    color: #ffffff;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    padding-bottom: 25px;
+    width: auto;
+    font-size: x-large;
+}
+
+#home {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:xx-large;
+}
+
+#guest {
+    background-color: black;
+    height: 150px;
+    width: 150px;
+    text-align: center;
+    border-radius: 5px;
+    font-size:xx-large;
+}
+
+button {
+    background-color: #BAE6FD;
+    border: 0;
+    border-radius: 3px;
+}
+
+#score {
+    font-size: xx-large;
+}
+
+#reset-btn {
+    margin: 20px;
+    text-align: center;
+    background-color:#bc6c25;
+    font-weight: bolder;
+    border-style: outset;
+    border: 3px solid #cccccc;
+}
+
+p {
+    color: black;
+}
